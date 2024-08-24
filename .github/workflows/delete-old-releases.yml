@@ -1,0 +1,13 @@
+on:
+  schedule:
+    - cron: "0 9 * * *"
+
+jobs:
+  delete-old-releases:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Nats-ji/delete-old-releases@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          keep-count: 5
+          keep-old-minor-releases: false
