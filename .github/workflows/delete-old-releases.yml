@@ -6,7 +6,7 @@ jobs:
   delete-old-releases:
     runs-on: ubuntu-latest
     steps:
-      - uses: Nats-ji/delete-old-releases@v1
+      - uses: Nats-ji/delete-old-releases@d247c0e597d4507f7bbba8e75fdba710e6821b43
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           keep-count: 5
