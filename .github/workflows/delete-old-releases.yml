@@ -2,6 +2,9 @@ on:
   schedule:
     - cron: "0 9 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   delete-old-releases:
     runs-on: ubuntu-latest
