@@ -4,7 +4,7 @@ Whether you are new to Pulumi or a seasoned user, Deskypus aims to simplify your
 
 ## Features
 
-- View vital information about your Pulumi projects and the stacks within them.
+- View vital information about your Pulumi projects and the stacks within them. **Great for users using self-managed backends!**
   - See stack history, simple resource graph, isometric resource graph and even **generate infrastructure diagrams** for them!
 - Local environments let you manage groups of environment variables that you can toggle anytime.
 - Automated disk usage monitor for Pulumi plugins so you don't end up with several GB's of unused plugins.
